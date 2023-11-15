@@ -9,7 +9,7 @@ function calculate() {
     const additionalInputs2 = document.getElementById('additionalInputs2'); // #2
     const additionalInputs3 = document.getElementById('additionalInputs3'); // #3
 
-    additionalInputs0.style.display = (selectedValue === '1'|| selectedValue === '2'|| selectedValue === '3') ? 'block' : 'none'; // #0
+    additionalInputs0.style.display = (selectedValue === '1'|| selectedValue === '2'|| selectedValue === '3'|| selectedValue === '7') ? 'block' : 'none'; // #0
     additionalInputs.style.display = (selectedValue === '4') ? 'block' : 'none'; // #1
     additionalInputs2.style.display = (selectedValue === '5') ? 'block' : 'none'; // #2
     additionalInputs3.style.display = (selectedValue === '6') ? 'block' : 'none'; // #3
